@@ -1,15 +1,9 @@
 screen-powerline
 ================
 
-A [vim-powerline](https://github.com/Lokaltog/vim-powerline) inspired config for GNU Screen.
+A [powerline](https://github.com/powerline/powerline)-inspired config for GNU Screen.
 
 It requires a font patched for vim-powerline. A list of patched fonts can be found at the
-[vim-powerline Wiki](https://github.com/Lokaltog/vim-powerline/wiki/Patched-fonts).
+[powerline RTD](https://powerline.readthedocs.org/en/latest/installation.html#patched-fonts).
 
-**This won't work most of the time because of crappy utf8 support in screen.
-It might be a better idea to use tmux instead.**
-
-Screenshot
-----------
-
-![Screenshot](http://bseibold.github.com/screen-powerline/images/screenshot.png)
+For help setting up a clean UTF-8 environment, [here's an oldie from Moritz Lenz](http://perlgeek.de/en/article/set-up-a-clean-utf8-environment).

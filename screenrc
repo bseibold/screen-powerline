@@ -3,6 +3,5 @@ utf8 on on
 startup_message off
 term "screen-256color"
 
-caption always "%{kY} %n%f* %t %?%{YR}⮀%{kR} %u %{Rb}%:%{Yb}%?%?%F%{.b}⮀%:%{.w}⮀%?%="
-hardstatus alwayslastline "%{bk} %S %{kb}⮀ $LOGNAME %{bk}⮀ %H %?%{kb}⮀%{kY} %-Lw%{Yk}⮀%:%{Yb}⮀%{Yk}%?%{Yk} %n%f* %t %{kY}⮀%+Lw %-="
-
+caption always "%{kY} %n%f* %t %?%{YR}%{kR} %u %{Rb}%:%{Yb}%?%?%F%{.b}%:%{.w}%?%="
+hardstatus alwayslastline "%{bk} %S %{kb} $LOGNAME %{bk} %H %?%{kb}%{kY} %-Lw%{Yk}%:%{Yb}%{Yk}%?%{Yk} %n%f* %t %{kY}%+Lw %-="
